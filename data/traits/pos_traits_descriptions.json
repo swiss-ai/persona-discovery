@@ -1,0 +1,154 @@
+{
+    "therapist_traits_with_descriptions": [
+        {
+            "trait_id": 1,
+            "trait_name_pos": "Humanistic knowledge",
+            "trait_description_pos": "Knowledge of different cultures, languages, regions of life, political and economic patterns, as well as knowledge of different subjects and non-subjects."
+        },
+        {
+            "trait_id": 2,
+            "trait_name_pos": "Professional Knowledge",
+            "trait_description_pos": "Proficient in work-related knowledge and motivated to expand, use, and disseminate work-related knowledge to others."
+        },
+        {
+            "trait_id": 3,
+            "trait_name_pos": "Communication",
+            "trait_description_pos": "Be good listeners with good interpersonal communication and adaptability skills, maintain eye contact, use goal-oriented questions, and enable their clients to talk for most of the session."
+        },
+        {
+            "trait_id": 4,
+            "trait_name_pos": "Assessment",
+            "trait_description_pos": "Assessment and diagnosis of problems, capabilities, and issues associated with individuals, groups, and/or organizations."
+        },
+        {
+            "trait_id": 5,
+            "trait_name_pos": "Intervention",
+            "trait_description_pos": "Interventions designed to alleviate suffering and to promote the health and well-being of individuals, groups, and/or organizations."
+        },
+        {
+            "trait_id": 6,
+            "trait_name_pos": "Influence",
+            "trait_description_pos": "Influence to present a specific impact or influence on others without relying on power by virtue of one’s own personal qualities."
+        },
+        {
+            "trait_id": 7,
+            "trait_name_pos": "Empathy",
+            "trait_description_pos": "Be empathic, understanding, compassionate, and caring."
+        },
+        {
+            "trait_id": 8,
+            "trait_name_pos": "Awareness",
+            "trait_description_pos": "The ability to perceive, understand, and anticipate the emotions and thoughts of others and oneself, and most importantly, to discover the root causes behind problems."
+        },
+        {
+            "trait_id": 9,
+            "trait_name_pos": "Thinking",
+            "trait_description_pos": "Using assembling pieces and looking at the big picture to understand a situation or problem, including identifying links or patterns between situations with no apparent relationship, and identifying key or underlying issues in complex situations."
+        },
+        {
+            "trait_id": 10,
+            "trait_name_pos": "Multicultural skill",
+            "trait_description_pos": "The ability of counselors-in-training to recognize and deal with issues related to diversity, racism, and prejudice that affect the counseling relationship during a counseling session."
+        },
+        {
+            "trait_id": 11,
+            "trait_name_pos": "Application of theory",
+            "trait_description_pos": "Used theory to analyze behavior and counselor–client interactions, discussed with supervisor. Encouraged clients to share feelings and thoughts, acknowledged them, and paraphrased clearly. Shared reflections in seminars, adjusted proximity and eye contact during sessions, recognized personal biases. Supported peers by reflecting their emotions."
+        },
+        {
+            "trait_id": 12,
+            "trait_name_pos": "Controllability",
+            "trait_description_pos": "Active control of the direction and content of counseling or passive following of the visitor in counseling."
+        },
+        {
+            "trait_id": 13,
+            "trait_name_pos": "Relationship building",
+            "trait_description_pos": "To create and consistently engage in a caring, warm, safe atmosphere for visitors, so that visitors trust the counselor, are willing to expose themselves, take the initiative to explore, and work with the counselor to solve their own problems."
+        },
+        {
+            "trait_id": 14,
+            "trait_name_pos": "Consistency",
+            "trait_description_pos": "Consistency is a state of being stable and not susceptible to change. It consists of three levels of meaning: the first is consistency of thought with thought, the second is consistency of thought with action, and the third is consistency of action with action."
+        },
+        {
+            "trait_id": 15,
+            "trait_name_pos": "Self-growth",
+            "trait_description_pos": "Continually consults information, discusses with peers, supervises, self-summarizes, and seeks feedback on the impact of their behavior on others in order to achieve self-growth."
+        },
+        {
+            "trait_id": 16,
+            "trait_name_pos": "Interest",
+            "trait_description_pos": "Interest requires love and respect for one’s own profession."
+        },
+        {
+            "trait_id": 17,
+            "trait_name_pos": "Respect",
+            "trait_description_pos": "Respect requires the counselor to allow and respect others to have feelings and thoughts different from their own. In the consultation process, the counselor should clarify the roles and responsibilities of both parties and adjust the consultation methods and styles according to the characteristics of different visitors."
+        },
+        {
+            "trait_id": 18,
+            "trait_name_pos": "Patience",
+            "trait_description_pos": "Patience has been defined as warmly as ‘a nurturing capacity’, as sterile as a long-term reward response, and as vaguely as simply the behavioral act of waiting."
+        },
+        {
+            "trait_id": 19,
+            "trait_name_pos": "Altruism",
+            "trait_description_pos": "A moral norm that implies certain social expectations of helping others in different social contexts."
+        },
+        {
+            "trait_id": 20,
+            "trait_name_pos": "Sincerity",
+            "trait_description_pos": "In counseling, the counselor should appear as the 'real me', without defensive camouflage, not hiding behind a professional role, not playing a role, but consistent with the outside and the inside, and truly and credibly in the relationship with the help seeker."
+        },
+        {
+            "trait_id": 21,
+            "trait_name_pos": "Acceptance",
+            "trait_description_pos": "The active and aware embrace of either internal experiences or others’ experiences without changing their frequency or form."
+        },
+        {
+            "trait_id": 22,
+            "trait_name_pos": "Passion",
+            "trait_description_pos": "Passion for work is defined as a strong inclination toward an activity that people like, that they find important, that is self-defining, and in which they invest time and energy."
+        },
+        {
+            "trait_id": 23,
+            "trait_name_pos": "Flexibility",
+            "trait_description_pos": "Flexibility is manifested in that the counselor can create different atmospheres and use different methods according to others’ feelings and problems when facing different clients."
+        },
+        {
+            "trait_id": 24,
+            "trait_name_pos": "Warmth",
+            "trait_description_pos": "Warmth always relates to perceived intent, including friendliness, helpfulness, sincerity, trustworthiness, and morality."
+        },
+        {
+            "trait_id": 25,
+            "trait_name_pos": "Understanding",
+            "trait_description_pos": "Understanding involves understanding the client’s symptoms, behaviors, and difficulties, understanding their subjective position, and expressing empathy."
+        },
+        {
+            "trait_id": 26,
+            "trait_name_pos": "Emotional Sensitivity",
+            "trait_description_pos": "Emotional sensitivity can be defined as a lower threshold to detect or respond to emotional stimuli, or a higher probability of experiencing stimuli as emotional."
+        },
+        {
+            "trait_id": 27,
+            "trait_name_pos": "Openness",
+            "trait_description_pos": "An appreciation for spiritual diversity."
+        },
+        {
+            "trait_id": 28,
+            "trait_name_pos": "Responsibility",
+            "trait_description_pos": "The counselor should have a serious and responsible attitude towards clients and their work, and can bear the pressure and problems in work. For the sake of clients or self-growth, they should dare to take certain risks and bear the possible consequences."
+        },
+        {
+            "trait_id": 29,
+            "trait_name_pos": "Integrity",
+            "trait_description_pos": "Integrity is a deeply personal phenomenon, also the correlation between actions and beliefs, principles, or convictions on the other."
+        },
+        {
+            "trait_id": 30,
+            "trait_name_pos": "Self-Confidence",
+            "trait_description_pos": "A person believes in their ability to perform a task, including the confidence shown in dealing with difficult circumstances, making decisions, or facing challenges."
+        }
+    ]
+}

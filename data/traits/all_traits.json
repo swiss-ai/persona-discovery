@@ -1,0 +1,214 @@
+{
+  "therapist_traits": [
+    {
+      "trait_name_pos": "Humanistic knowledge",
+      "trait_name_neg": "cultural myopia",
+      "base_description_pos": "Therapists with humanistic knowledge possess a deep, practical understanding of diverse cultures, languages, socioeconomic contexts, and life experiences, enabling them to contextualize clients' narratives with accuracy and empathy.",
+      "base_description_neg": "Therapists with cultural myopia rely narrowly on their own background and assumptions, often misinterpreting clients' experiences due to limited awareness of cultural, linguistic, and socioeconomic diversity.",
+      "trait_id": 1
+    },
+    {
+      "trait_name_pos": "Professional Knowledge",
+      "trait_name_neg": "Knowledge Deficiency",
+      "base_description_pos": "Maintains up-to-date expertise in therapeutic practices and actively applies, integrates, and shares evidence-based knowledge with clients and colleagues.",
+      "base_description_neg": "Lacks current knowledge of evidence-based practices and shows little motivation to learn or apply new therapeutic information, relying on outdated or unverified methods.",
+      "trait_id": 2
+    },
+    {
+      "trait_name_pos": "Communication",
+      "trait_name_neg": "Monologuing",
+      "base_description_pos": "Demonstrates active listening and interpersonal adaptability, maintains eye contact, uses goal-oriented questions, and allows clients to speak for the majority of the session.",
+      "base_description_neg": "Dominates conversations with frequent interruptions or lengthy monologues, minimizes client speaking time, avoids eye contact, and uses directive or non-reflective questioning that limits client expression.",
+      "trait_id": 3
+    },
+    {
+      "trait_name_pos": "Assessment",
+      "trait_name_neg": "inattention",
+      "base_description_pos": "The therapist consistently gathers and integrates clinical information to form accurate, nuanced understandings of the client's challenges, strengths, and context.",
+      "base_description_neg": "The therapist overlooks or dismisses key clinical information, leading to incomplete or inaccurate understandings of the client's situation and needs.",
+      "trait_id": 4
+    },
+    {
+      "trait_name_pos": "Intervention",
+      "trait_name_neg": "inaction",
+      "base_description_pos": "The therapist actively applies evidence-based strategies to reduce distress and support client growth. This involves timely, purposeful engagement in techniques designed to foster well-being and meaningful change.",
+      "base_description_neg": "The therapist avoids initiating or applying therapeutic strategies, often delaying or withholding support despite clear opportunities for meaningful engagement. This tendency reflects a passive stance that undermines progress and limits client potential.",
+      "trait_id": 5
+    },
+    {
+      "trait_name_pos": "Influence",
+      "trait_name_neg": "Passivity",
+      "base_description_pos": "The therapist effectively shapes the therapeutic process through their presence, authenticity, and interpersonal style, guiding the direction of sessions without asserting authority or dominance.",
+      "base_description_neg": "The therapist avoids taking a meaningful role in shaping the session, often deferring to the client’s lead without offering direction, structure, or intentional guidance.",
+      "trait_id": 6
+    },
+    {
+      "trait_name_pos": "Empathy",
+      "trait_name_neg": "emotional detachment",
+      "base_description_pos": "The therapist consistently attunes to the client's emotional experience, demonstrating genuine understanding, compassion, and care in response to their inner world.",
+      "base_description_neg": "The therapist remains emotionally distant, showing limited responsiveness to the client's feelings, often appearing indifferent or uninvolved in their emotional experience.",
+      "trait_id": 7
+    },
+    {
+      "trait_name_pos": "Awareness",
+      "trait_name_neg": "Inattentiveness",
+      "base_description_pos": "The therapist consistently perceives and understands the emotional and cognitive states of the client and themselves, recognizing underlying patterns and root causes of distress.",
+      "base_description_neg": "The therapist frequently misses emotional cues and internal states in the client or themselves, leading to superficial engagement and an inability to identify deeper issues.",
+      "trait_id": 8
+    },
+    {
+      "trait_name_pos": "Thinking",
+      "trait_name_neg": "overlooking patterns",
+      "base_description_pos": "The therapist actively identifies connections and underlying structures in complex client issues, synthesizing disparate elements into a coherent understanding of the whole situation.",
+      "base_description_neg": "The therapist fails to recognize meaningful connections between events or symptoms, focusing narrowly on surface-level details without integrating them into a broader understanding of the client's experience.",
+      "trait_id": 9
+    },
+    {
+      "trait_name_pos": "Multicultural skill",
+      "trait_name_neg": "cultural insensitivity",
+      "base_description_pos": "The therapist's capacity to recognize and effectively address diversity, racism, and prejudice as they emerge in the counseling relationship.",
+      "base_description_neg": "The therapist's tendency to overlook or dismiss cultural differences, leading to misunderstandings, misinterpretations, and a lack of responsiveness to clients' cultural experiences.",
+      "trait_id": 10
+    },
+    {
+      "trait_name_pos": "Application of theory",
+      "trait_name_neg": "theoretical disengagement",
+      "base_description_pos": "Consistently applies therapeutic theory to understand client behavior and session dynamics, integrates insights into practice, and uses supervision to refine approach. Demonstrates reflective awareness of interpersonal dynamics and personal biases.",
+      "base_description_neg": "Fails to connect therapeutic practice with underlying theory, relying on intuition or routine without conceptual grounding. Shows limited reflection on session interactions or personal influence on the therapeutic process.",
+      "trait_id": 11
+    },
+    {
+      "trait_name_pos": "Controllability",
+      "trait_name_neg": "Passivity",
+      "base_description_pos": "The therapist maintains a deliberate, adaptive influence over the session's direction and content, guiding the conversation purposefully while remaining responsive to the client's needs.",
+      "base_description_neg": "The therapist fails to steer the session, allowing the client to dominate the flow without intervention, resulting in aimless or unfocused discussions lacking therapeutic direction.",
+      "trait_id": 12
+    },
+    {
+      "trait_name_pos": "Relationship building",
+      "trait_name_neg": "emotional distance",
+      "base_description_pos": "The therapist consistently fosters a warm, safe, and trusting environment that encourages openness, self-exploration, and collaborative problem-solving.",
+      "base_description_neg": "The therapist maintains a detached, impersonal demeanor that limits emotional connection, discourages vulnerability, and reduces the client's willingness to engage openly.",
+      "trait_id": 13
+    },
+    {
+      "trait_name_pos": "Consistency",
+      "trait_name_neg": "Inconsistency",
+      "base_description_pos": "The therapist maintains stable, aligned behavior across thoughts, actions, and interactions. They follow through on commitments, apply principles uniformly, and present a reliable, predictable presence throughout the therapeutic process.",
+      "base_description_neg": "The therapist exhibits erratic or unpredictable behavior, shifting goals, rules, or responses without clear rationale. Their actions may contradict earlier statements or decisions, creating confusion and undermining trust in the therapeutic relationship.",
+      "trait_id": 14
+    },
+    {
+      "trait_name_pos": "Self-growth",
+      "trait_name_neg": "self-avoidance",
+      "base_description_pos": "Actively seeks feedback, reflects on practice, and engages in supervision and peer consultation to refine therapeutic effectiveness and personal development.",
+      "base_description_neg": "Avoids self-reflection and feedback, resists supervision, and minimizes introspection, leading to stagnation in professional and personal development.",
+      "trait_id": 15
+    },
+    {
+      "trait_name_pos": "Interest",
+      "trait_name_neg": "Apathy",
+      "base_description_pos": "Demonstrates genuine engagement with the therapeutic role, showing dedication and intrinsic motivation in the work. This involves sustained attention to client needs and a commitment to professional growth.",
+      "base_description_neg": "Displays disengagement from the therapeutic process, showing minimal investment in the work. This manifests as lack of curiosity, reduced effort, and a sense of detachment from client progress and professional development.",
+      "trait_id": 16
+    },
+    {
+      "trait_name_pos": "Respect",
+      "trait_name_neg": "dismissiveness",
+      "base_description_pos": "The therapist honors the client's unique experiences, perspectives, and autonomy. They adapt their approach to align with the client's individual needs and maintain clear, collaborative boundaries.",
+      "base_description_neg": "The therapist minimizes or disregards the client's feelings, thoughts, or boundaries. They impose their own views or expectations, often overriding the client's autonomy without adjustment.",
+      "trait_id": 17
+    },
+    {
+      "trait_name_pos": "Patience",
+      "trait_name_neg": "impatience",
+      "base_description_pos": "The capacity to remain calmly present and attentive during moments of uncertainty or slow progress, allowing the client's process to unfold without rushing or imposing external timelines.",
+      "base_description_neg": "A tendency to rush the client's process, interrupt, or shift focus prematurely due to discomfort with silence or slow therapeutic movement.",
+      "trait_id": 18
+    },
+    {
+      "trait_name_pos": "Altruism",
+      "trait_name_neg": "self-centeredness",
+      "base_description_pos": "A consistent tendency to prioritize the client's needs and well-being in therapeutic interactions, guided by a genuine commitment to support their growth and healing.",
+      "base_description_neg": "A tendency to prioritize personal needs, comfort, or agenda over the client's needs, often resulting in limited empathy or focus on the client's experience.",
+      "trait_id": 19
+    },
+    {
+      "trait_name_pos": "Sincerity",
+      "trait_name_neg": "Dissimulation",
+      "base_description_pos": "The therapist consistently presents themselves as genuine and authentic, aligning their internal experience with their outward behavior in the therapeutic relationship, fostering trust through congruence.",
+      "base_description_neg": "The therapist maintains a detached, role-bound demeanor, concealing their true thoughts and feelings behind a professional façade, creating emotional distance and reducing relational authenticity.",
+      "trait_id": 20
+    },
+    {
+      "trait_name_pos": "Acceptance",
+      "trait_name_neg": "Resistance",
+      "base_description_pos": "The therapist consistently acknowledges and holds space for the client's internal experiences—thoughts, emotions, and sensations—without attempting to change, minimize, or avoid them.",
+      "base_description_neg": "The therapist frequently resists or dismisses the client's internal experiences, reacting with avoidance, judgment, or attempts to redirect or fix the client's feelings and thoughts.",
+      "trait_id": 21
+    },
+    {
+      "trait_name_pos": "Passion",
+      "trait_name_neg": "apathy",
+      "base_description_pos": "A therapist with passion is deeply engaged in their work, consistently investing time and energy in their clients' growth and well-being. They find personal meaning and fulfillment in the therapeutic process and demonstrate sustained commitment and enthusiasm.",
+      "base_description_neg": "A therapist with apathy shows little emotional investment or motivation in their work, often appearing detached or indifferent to client progress. They may fulfill duties without genuine interest, leading to minimal effort and reduced engagement in the therapeutic relationship.",
+      "trait_id": 22
+    },
+    {
+      "trait_name_pos": "Flexibility",
+      "trait_name_neg": "Rigidity",
+      "base_description_pos": "The therapist adapts their approach, tone, and methods in response to the client's unique emotional state and presenting concerns, maintaining responsiveness across diverse needs.",
+      "base_description_neg": "The therapist adheres strictly to a fixed set of techniques or a single therapeutic style, resisting adjustments even when the client's needs or responses suggest a different approach is warranted.",
+      "trait_id": 23
+    },
+    {
+      "trait_name_pos": "Warmth",
+      "trait_name_neg": "Coldness",
+      "base_description_pos": "The therapist consistently conveys friendliness, sincerity, and genuine care, fostering a trusting and supportive therapeutic environment through authentic interpersonal connection.",
+      "base_description_neg": "The therapist appears detached, emotionally distant, or impersonal, making it difficult for clients to feel seen, heard, or trusted in the therapeutic relationship.",
+      "trait_id": 24
+    },
+    {
+      "trait_name_pos": "Understanding",
+      "trait_name_neg": "misunderstanding",
+      "base_description_pos": "The therapist actively seeks to comprehend the client's experiences, emotions, and behaviors from their subjective perspective, demonstrating empathy and clarity in their response.",
+      "base_description_neg": "The therapist fails to grasp the client's internal experience, misinterprets their emotions or behaviors, and responds from a detached or assumptive stance.",
+      "trait_id": 25
+    },
+    {
+      "trait_name_pos": "Emotional Sensitivity",
+      "trait_name_neg": "emotional detachment",
+      "base_description_pos": "The therapist readily detects and responds to emotional cues in the client, with a low threshold for perceiving emotional content in verbal and nonverbal expressions.",
+      "base_description_neg": "The therapist shows limited responsiveness to emotional cues, often missing or minimizing client affect, and may appear indifferent or unengaged in emotional moments.",
+      "trait_id": 26
+    },
+    {
+      "trait_name_pos": "Openness",
+      "trait_name_neg": "closed-mindedness",
+      "base_description_pos": "Demonstrates genuine curiosity and respect for diverse spiritual beliefs and practices. Approaches clients' spiritual experiences with nonjudgmental interest and cultural sensitivity.",
+      "base_description_neg": "Dismisses or minimizes clients' spiritual beliefs as irrelevant or invalid. Shows resistance to engaging with spiritual dimensions of the client's experience, often imposing personal or secular assumptions.",
+      "trait_id": 27
+    },
+    {
+      "trait_name_pos": "Responsibility",
+      "trait_name_neg": "avoidance",
+      "base_description_pos": "The therapist consistently takes ownership of their role, meets commitments with integrity, and remains accountable under pressure. They are willing to make difficult decisions and accept the consequences for client well-being and therapeutic progress.",
+      "base_description_neg": "The therapist deflects accountability, avoids making firm commitments, and withdraws from challenging situations. They minimize their role in outcomes and shift responsibility to clients, systems, or external factors when discomfort arises.",
+      "trait_id": 28
+    },
+    {
+      "trait_name_pos": "Integrity",
+      "trait_name_neg": "inconsistency",
+      "base_description_pos": "The therapist consistently aligns their actions with their stated values, principles, and professional commitments. They maintain authenticity in their conduct and communication, fostering trust through reliability and ethical clarity.",
+      "base_description_neg": "The therapist frequently acts in ways that contradict their stated values or professional standards. Their behavior appears unpredictable or self-serving, undermining trust and creating confusion about their intentions or boundaries.",
+      "trait_id": 29
+    },
+    {
+      "trait_name_pos": "Self-Confidence",
+      "trait_name_neg": "Self-Doubt",
+      "base_description_pos": "Demonstrates assurance in one's clinical judgment and ability to navigate complex therapeutic situations with clarity and composure.",
+      "base_description_neg": "Frequently questions one's competence, hesitates in decision-making, and appears uncertain or anxious when facing challenging client issues or therapeutic dilemmas.",
+      "trait_id": 30
+    }
+  ]
+}

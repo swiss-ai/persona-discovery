@@ -1,0 +1,26 @@
+defaults:
+  - checkpoints # load the model checkpoints from checkpoints.yaml.
+  - _self_ # load this file after.
+
+model:
+  checkpoint: apertus_v1.5_8B
+  dtype: bfloat16
+  device_map: auto
+
+trait_id: ???
+sets: [cal] # options are [cal, train, test].
+
+data_dir: ${oc.env:SCRATCH}/apertus-pulse/data/cache
+
+batch_size: 100
+max_new_tokens: 300
+temperature: 0.75
+
+pooling_modes: # options are: mean_pooling, max_pooling, last_pooling
+  - mean_pooling
+
+submodules: # options are: residual.pre_attn, residual.post_mlp, residual.post_attn
+  - residual.post_mlp
+
+
+layers: null  # null = all layers

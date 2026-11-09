@@ -1,0 +1,24 @@
+checkpoints:
+  apertus_mini_5B_base:
+    hf_repo: "swiss-ai/Apertus-v1.1-0.5B"
+    hf_branch: "main"
+    type: base
+    desc: Apertus mini base model, no fine-tuning.
+
+  apertus_mini_5B_instruct:
+    hf_repo: "swiss-ai/Apertus-v1.1-0.5B-Instruct"
+    hf_branch: "main"
+    type: instruct
+    desc: Apertus mini instruct model.
+
+  apertus_v1.5_8B:
+    hf_repo: "swiss-ai/Apertus-v1.5-8B"
+    hf_branch: "main"
+    # Instruction-tuned as released (no separate -Instruct repo for v1.5); loaded via
+    # AutoProcessor/AutoModelForMultimodalLM.
+    type: instruct
+    desc: Apertus v1.5 8B, instruction-tuned (multimodal release, no separate -Instruct repo).
+
+model:
+  device_map: "auto"
+  dtype: "bfloat16"

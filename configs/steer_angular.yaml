@@ -1,0 +1,39 @@
+# configs/steer_angular.yaml
+defaults:
+  - checkpoints
+  - _self_
+
+model:
+  checkpoint: apertus_v1.5_8B
+  dtype: bfloat16
+  device_map: auto
+
+trait_a: ???                  # theta=0   -> exactly this trait's direction
+trait_b: ???                  # theta=90  -> exactly this trait's direction
+probe_checkpoint: ${model.checkpoint}
+trained_set: cal
+test_set: test
+num_questions: 50
+
+probe_dir: ${oc.env:SCRATCH}/apertus-pulse/data/probes
+out_dir: ${oc.env:SCRATCH}/apertus-pulse/data/steering_angular
+
+system_prompt: "You are a therapist. Please answer the patient request." # neutral, as in 5a_steer_trait
+
+submodule: residual.post_mlp
+pooling: mean_pooling
+l1: 0.0
+layers: null                  # null = every layer with probes for both traits
+
+# 12 mixing values at 30 deg spacing, including the four cardinals (0 = pure A, 90 = pure B, 180 = -A,
+# 270 = -B). theta is a mixing parameter, not a geometric angle: the angle between A and B is
+# arccos(cos(A,B)) and varies by layer (see meta.json written per pair).
+angles: [0, 30, 60, 90, 120, 150, 180, 210, 240, 270, 300, 330]
+
+# One fixed strength, so only the direction varies. In the single-trait runs on apertus_v1.5_8B (l1 0),
+# 0.02 was the largest tested positive strength at which no completion was flagged as degenerate. The perturbation has the
+# same size at every angle because register_steering_hook normalises the combined direction.
+strength: 0.02
+
+batch_size: 16
+max_new_tokens: 300

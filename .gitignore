@@ -1,0 +1,37 @@
+# Personal cluster settings (template: remote/cluster.env.example)
+remote/cluster.env
+.env
+
+# Credentials and key files
+.hf-token
+.wandb-api-key
+*.key
+*.pem
+
+# Run outputs and logs
+outputs/
+multirun/
+remote/logs/
+*.out
+*.err
+
+# Data and results: data lives under $SCRATCH; figures and analysis JSONs are regenerated.
+# Exception: the cached W&B pull that src/4c_plot_layer_accuracy.py reads by default.
+scratch/
+data/questions/
+data/plots/**
+!data/plots/**/
+!data/plots/probe_geometry/apertus_v1.5_8B/layer_acc_l1_*_cache.json
+
+# Python
+__pycache__/
+*.pyc
+*.egg-info/
+build/
+dist/
+.venv*/
+venv/
+.ruff_cache/
+
+# OS
+.DS_Store

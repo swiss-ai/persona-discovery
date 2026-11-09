@@ -1,0 +1,29 @@
+# steer_trait.yaml
+defaults:
+  - checkpoints
+  - _self_
+
+model:
+  checkpoint: apertus_v1.5_8B
+  dtype: bfloat16
+  device_map: auto
+
+trait_id: ???
+probe_checkpoint: ${model.checkpoint}
+trained_set: cal
+test_set: test
+num_questions: 50
+
+probe_dir: ${oc.env:SCRATCH}/apertus-pulse/data/probes
+out_dir: ${oc.env:SCRATCH}/apertus-pulse/data/steering
+
+system_prompt: "You are a therapist. Please answer the patient request." # null = no system prompt at all
+
+submodule: residual.post_mlp
+pooling: mean_pooling
+l1: 0.0
+layers: null # null = steer at every layer with a trained probe
+
+strengths: [-0.02, -0.01, -0.005, 0.001, 0.002, 0.005, 0.01, 0.02] # fraction of each token's own activation norm; 0.0 baseline is always included too
+batch_size: 16
+max_new_tokens: 300

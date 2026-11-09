@@ -1,0 +1,26 @@
+#train_probes.yaml
+defaults:
+  - checkpoints
+  - _self_
+
+model:
+  checkpoint: apertus_v1.5_8B
+  dtype: bfloat16
+  device_map: auto
+  layers: null  # not read by 3_train_probes, which trains on every layer found in the cached activations
+
+trait_id: ???
+sets: [cal]   # only the first set is used
+
+data_dir: ${oc.env:SCRATCH}/apertus-pulse/data
+probe_dir: ${oc.env:SCRATCH}/apertus-pulse/data/probes
+
+pooling_modes:
+  - mean_pooling
+
+submodules:
+  - residual.post_mlp
+
+steps: 2000
+lr: 0.001
+l1_sparsity: [0.0, 0.01, 0.1, 0.5, 1.0]

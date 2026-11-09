@@ -1,0 +1,28 @@
+# configs/score_coherence.yaml
+defaults:
+  - _self_
+
+checkpoint: apertus_v1.5_8B
+l1: 0.0                       # which l1 probe produced the steering direction; must match the 5a run
+trait_id: all                 # int, or "all" to score every trait present for this checkpoint
+
+# Overrides so 5b_steer_angular output (pair_<A>_<B>/angle_*.json) can reuse this scorer:
+input_dir: null
+output_dir: null
+file_prefix: strength
+
+steering_dir: ${oc.env:SCRATCH}/apertus-pulse/data/steering
+out_dir: ${oc.env:SCRATCH}/apertus-pulse/data/steering_coherence
+
+# --- absolute thresholds -------------------------------------------------------------------
+# min_words / max_char_rep: thresholds of the length and character-repetition checks
+# (utils/filter_utils.py).
+min_words: 10
+max_char_rep: 0.35
+min_distinct_4: 0.60          # distinct 4-gram fraction below this counts as looping
+
+# --- relative (baseline-calibrated) threshold ----------------------------------------------
+# A completion is "below baseline" if its distinct_4 falls under this percentile of the same trait's
+# unsteered completions, so the baseline itself flags about this fraction (exactly only without
+# ties). summary.json reports excess_rate = relative_rate - baseline_percentile/100.
+baseline_percentile: 5

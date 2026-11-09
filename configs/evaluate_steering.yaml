@@ -1,0 +1,49 @@
+# configs/evaluate_steering.yaml
+defaults:
+  - _self_
+
+checkpoint: apertus_mini_5B_instruct
+
+l1: 0.0                       # which l1 probe produced the steering direction; must match the 5a run
+
+trait_id: ???                 # which trait's steering completions to load (the trait that was steered)
+# Which trait definition(s) the judge scores against: a trait id, or a list to judge the same
+# completions for several traits in one run (the judge model is loaded only once).
+#   eval_trait_id=24                 -> judged for trait 24
+#   'eval_trait_id=[7,11,24]'        -> judged for traits 7, 11 and 24
+eval_trait_id: ${trait_id}
+
+# Which pole of the eval trait the judge scores for: "pos" or "neg".
+# eval_sign=neg re-judges the same answer pairs, in the same A/B order, for the trait's opposite
+# (e.g. "Coldness" instead of "Warmth"). This is a control for the judge: if it follows the named
+# trait, the preference for the steered answer should drop for the opposite pole; a rate that stays
+# similar suggests that the judge rewards general answer quality.
+# Output goes to eval_trait_<id>_neg/, separate from the positive-pole results.
+eval_sign: pos
+
+num_pairs: null                # null = use all questions present in the files
+
+# Which strengths to judge. null = every strength_*.json present in the trait dir.
+# Restricting it, e.g. 'strengths=[0.02]', reduces the judging cost accordingly.
+strengths: null
+
+# true = skip strengths already present in summary.json and on disk, so an incremental run adds only
+# new strengths; the summary accumulates rather than being overwritten. The judge model is not
+# loaded when there is nothing left to do.
+skip_existing: false
+
+# Overrides that let a differently-shaped producer reuse this judge unchanged (e.g. 5b_steer_angular,
+# whose output lives in pair_<A>_<B>/ and is named angle_*.json rather than strength_*.json):
+#   input_dir=<abs path to the dir holding baseline.json + <prefix>_*.json>
+#   output_dir=<abs path; eval_trait_<id>/ is created underneath>
+#   file_prefix=angle
+input_dir: null
+output_dir: null
+file_prefix: strength
+
+steering_dir: ${oc.env:SCRATCH}/apertus-pulse/data/steering
+out_dir: ${oc.env:SCRATCH}/apertus-pulse/data/steering_eval
+
+judge_model: "Qwen/Qwen2.5-7B-Instruct"
+judge_max_retries: 3
+seed: 0
